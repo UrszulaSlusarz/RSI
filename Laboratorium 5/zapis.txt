@@ -1,0 +1,1 @@
+Dane zapisane do pliku Imię: ula Nazwisko:s Wiek:3.0 Miejscowosc: s Ulica: s Numer domu: 3.0.
