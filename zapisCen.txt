@@ -1,0 +1,7 @@
+1.Wypelnienie ubytku Cena:150.0
+2.Cwiek utrzymujacy wypelnienie Cena:135.50
+3.Leczenie kanalowe Cena:450.0
+4.Usuniecie zeba Cena:100.0
+5.Zdjecie RTG Cena:20.0
+6.Wybielanie zebow Cena:600.0
+7.Higienizacja jamy ustnej Cena:120.0
