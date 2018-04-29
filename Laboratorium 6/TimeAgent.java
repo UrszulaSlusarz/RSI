@@ -35,7 +35,7 @@ import jade.core.behaviours.TickerBehaviour;
  * <code>TickerBehaviour</code>.
  * More in details this agent executes a <code>TickerBehaviour</code>
  * that prints the agent name every second and a <code>WakerBehaviour</code> ]
- * that kill the agent after 10 seconds.
+ * that kill the agent after 2min.
  * @author Giovanni Caire - TILAB
  */
 public class TimeAgent extends Agent {
@@ -50,7 +50,7 @@ public class TimeAgent extends Agent {
       } 
     });
 
-    // Add the WakerBehaviour (wakeup-time 10 secs)
+    // Add the WakerBehaviour (wakeup-time 2min)
     addBehaviour(new WakerBehaviour(this, 120000) {
       protected void handleElapsedTimeout() {
         System.out.println("Agent "+myAgent.getLocalName()+": It's wakeup-time. Bye...");
